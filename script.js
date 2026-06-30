@@ -46,7 +46,7 @@ const skillObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.querySelectorAll('.fill').forEach(fill => {
-        fill.style.animationPlayState = 'running';
+      
       });
     }
   });
